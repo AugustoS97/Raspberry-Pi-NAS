@@ -1,0 +1,11 @@
+[Unit]
+Description= Servicio para notificar el estado de la Raspberry en una OLED
+Requires=oled-statistic.service
+
+[Timer]
+#OnUnitActiveSec=5min
+OnBootSec=1min
+Unit=oled-statistic.service
+
+[Install]
+WantedBy=multi-user.target

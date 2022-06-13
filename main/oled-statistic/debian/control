@@ -1,0 +1,10 @@
+Source: oled-statistic
+Section: main
+Priority: optional
+Maintainer: Augusto Hernández <augustosamuelhdezmartin@gmail.com>
+Build-Depends: debhelper (>= 9)
+
+Package: oled-statistic
+Architecture: all
+Depends: ${misc:Depends}
+Description: This package control an I2C OLED display to show the Raspberry Pi status.

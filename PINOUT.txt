@@ -1,0 +1,4 @@
+- Ventilador: GPIO 12 (PWM 3.3V)
+- LED Amarillo (Estatus LED): GPIO26
+- LED Rojo (Encendido LED): GPIO19
+- Interruptor de encendido/apagado: GPIO3 y GND
