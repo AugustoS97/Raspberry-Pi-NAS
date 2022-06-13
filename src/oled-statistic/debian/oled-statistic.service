@@ -1,0 +1,12 @@
+[Unit]
+Description=Servicio para notificar el estado de la Raspberry en una OLED
+
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/env python3 /usr/share/oled-statistic/src/oled-statistic.py
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,7 @@
+Files: *
+Copyright: 2022 Augusto Samuel Hernandez Martin
+License: LGPL-3
+
+Files: debian/*
+Copyright: 2022 Augusto Samuel Hernandez Martin
+License: LGPL-3

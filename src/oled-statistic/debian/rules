@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+PACKAGE_NAME=oled-statistic
+
+clean:
+	dh $@
+
+build:
+	dh $@ 
+override_dh_auto_install:
+	#mkdir -p debian/$(PACKAGE_NAME)/home/$(USER)/.config/systemd/user
+	mkdir -p debian/$(PACKAGE_NAME)/usr/share/oled-statistic/src
+    	#install -D -m 755 oled-statistic.py debian/$(PACKAGE_NAME)/usr/bin/oled-statistic/src/oled-statistic.py
+
+	dh_auto_install
+	dh_systemd_enable  || true
+	dh_systemd_start --no-start || true
+
+binary:
+	dh $@ --with-systemd, python3

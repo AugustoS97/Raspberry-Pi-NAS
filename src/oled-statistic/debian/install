@@ -1,0 +1,4 @@
+#!/bin/bash
+
+oled-statistic.py /usr/share/oled-statistic/src
+PixelOperator.ttf /usr/share/oled-statistic/src
