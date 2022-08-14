@@ -4,11 +4,11 @@ NAS (Network Attached Storage) basado en Rapsberry Pi con Open Media Vault impre
 Este diseño pretende reaprovechar los Discos Duros Externos de 3,5" USB para ser usados como NAS en una carcasa que integra todo lo necesario.
 Incorpora LEDs indicador de estado (LED verde) y de encendido (LED rojo), así como OLED para identificar la dirección IP, el espacio libre y los datos de consumo de RAM y CPU.
 
-[NAS_exterior](/Photos/NAS_exterior.jpg)
+![NAS_exterior](/Photos/NAS_exterior.jpg)
 
-[NAS exterior 2](/Photos/NAS_exterior_1.jpg)
+![NAS exterior 2](/Photos/NAS_exterior_1.jpg)
 
-[NAS frontal](/Photos/NAS_frente.jpg)
+![NAS frontal](/Photos/NAS_frente.jpg)
 
 ## Lista de Materiales (BOM)
 
