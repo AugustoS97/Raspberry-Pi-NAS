@@ -37,7 +37,7 @@ Para montar este sistema se precisa de lo siguiente:
 - 2 Resistencias 220 Ohm
 - Regulador DC/DC StepDown MP2307 o LM2596
 - Fusible 2A (Opcional para proteger alimentación de Raspberry)
-- Placa para control del ventilador [PWNM](https://github.com/AugustoS97/RPi-accessories/tree/main/PWM-TRANSISTOR-PCB) de diseño propio (opcional). En caso de querer controlar mediante PWM es necesario un transistor 2N2222, un diodo 1N4007 y una Resistencia de 1KOhm.
+- Placa para control del ventilador [PWM](https://github.com/AugustoS97/RPi-accessories/tree/main/PWM-TRANSISTOR-PCB) de diseño propio (opcional). En caso de querer controlar mediante PWM es necesario un transistor 2N2222, un diodo 1N4007 y una Resistencia de 1KOhm.
 - Puede sustituirse la integración de los LEDs de estado, el fusible, el DC/DC y la placa para control PWM, empleando una [placa de expansión para RPi de diseño propio](https://github.com/AugustoS97/RPi-accessories/tree/main/LED-RPi-PCB).
 
 ### Esquema para el control PWM del ventilador
@@ -46,7 +46,7 @@ Para montar este sistema se precisa de lo siguiente:
 
 ### Esquema para la Placa de expansión para RPi
 
-![Esquema placa RPi](/Photos/Esquema%20PWM%20control.png)
+![Esquema placa RPi](/Photos/Esquema%20PCB%20main%20NAS.png)
 
 ## Instalar Open Media Vault
 
